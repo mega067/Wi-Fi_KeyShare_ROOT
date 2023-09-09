@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FF0505"
+    android:fadeScrollbars="true">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="268dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="72dp"
+        android:autoSizeTextType="uniform"
+        android:background="#00E6E6E6"
+        android:backgroundTintMode="add"
+        android:text="@string/redes_g_tex"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="#001AFF"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrol_red_g"
+        android:layout_width="413dp"
+        android:layout_height="464dp"
+        android:background="#007E7E7E"
+        android:fadeScrollbars="false"
+        android:keepScreenOn="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="-3dp">
+
+        <LinearLayout
+            android:id="@+id/redes_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <!-- Aquí se agregarán dinámicamente los TextViews con la información de las redes WiFi -->
+        </LinearLayout>
+
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

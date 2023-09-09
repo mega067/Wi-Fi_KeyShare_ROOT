@@ -1,14 +1,12 @@
+package com.WIFI.keyshare;
+
+import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import androidx.appcompat.app.AppCompatActivity;
-
-import com.WIFI.keyshare.R;
-
-public class activity_home extends AppCompatActivity {
-
+public class activity_home extends Activity {
     private Button buttonRedG;
 
     @Override
@@ -50,3 +48,4 @@ public class activity_home extends AppCompatActivity {
         }
     }
 }
+
