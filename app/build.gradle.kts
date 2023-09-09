@@ -31,7 +31,7 @@ android {
 dependencies {
 
 
-    implementation("com.scottyab:rootbeer-lib:0.0.7")//Libreria ROOT TEST ANDROID
+    //Libreria ROOT TEST ANDROID
     /*-----LIBRERIAS POR DEFECTO----------*/
     implementation("androidx.appcompat:appcompat:1.6.1")
     implementation("com.google.android.material:material:1.9.0")
